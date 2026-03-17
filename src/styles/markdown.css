@@ -1,0 +1,147 @@
+.markdown, article, .content {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #222;
+  font-size: 16px;
+}
+
+/* Headings */
+.markdown h1,
+article h1,
+.content h1 { 
+  font-size: 2.25rem; 
+  margin: 1.5rem 0 1.2rem 0;
+  line-height: 1.15; 
+  font-weight: bold;
+}
+.markdown h2,
+article h2,
+.content h2 { 
+  font-size: 1.75rem; 
+  margin: 1.5rem 0 1rem 0; 
+  line-height: 1.2; 
+  font-weight: bold;
+}
+.markdown h3,
+article h3,
+.content h3 { 
+  font-size: 1.25rem; 
+  margin: 1.5rem 0 0.9rem 0; 
+  font-weight: bold;
+}
+.markdown h4, .markdown h5, .markdown h6,
+article h4, article h5, article h6,
+.content h4, .content h5, .content h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  font-weight: bold;
+}
+
+/* Paragraphs and lists */
+.markdown p, article p, .content p { margin: 1rem 0; }
+.markdown ul, .content ul, article ul {
+  list-style-type: circle; 
+  margin: 1rem 0 1rem 1.25rem;
+  padding: 0;
+}
+.markdown ul li::before, .content ul li::before, article ul li::before {
+  margin-right: 0.5rem;
+  color: #555;
+}
+
+/* Ordered lists with numbers */
+.markdown ol, .content ol, article ol {
+  list-style-type: decimal; 
+  margin: 1rem 0 1rem 1.25rem;
+  padding: 0;
+}
+.markdown ol li, .content ol li, article ol li {
+  margin-left: 1rem; 
+}
+
+/* Links */
+.markdown a, article a, .content a {
+  color: #0366d6;
+  text-decoration: underline;
+}
+.markdown a:hover, article a:hover, .content a:hover { text-decoration: none; }
+
+/* Inline code */
+.markdown code, article code, .content code {
+  background: #faecba;
+  padding: 0.15em 0.35em;
+  border-radius: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+  font-size: 0.95em;
+}
+
+/* Code blocks */
+.markdown pre, article pre, .content pre {
+  background: #0f1720;
+  color: #e6edf3;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+  font-size: 0.9rem;
+  margin: 0.9rem 0;
+}
+.markdown pre code, article pre code, .content pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+/* Blockquotes */
+.markdown blockquote, article blockquote, .content blockquote {
+  border-left: 4px solid #e2e8f0;
+  padding-left: 1rem;
+  color: #555;
+  background: #fbfbfb;
+  margin: 0.75rem 0;
+}
+
+/* Horizontal rule */
+.markdown hr, article hr, .content hr {
+  border: none;
+  border-top: 1px solid #e6e6e6;
+  margin: 1.25rem 0;
+}
+
+/* Tables */
+.markdown table, article table, .content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0;
+  overflow: auto;
+}
+.markdown th, .markdown td, article th, article td, .content th, .content td {
+  border: 1px solid #e8e8e8;
+  padding: 0.45rem 0.6rem;
+  text-align: left;
+}
+.markdown th, article th, .content th {
+  background: #f7f7f7;
+  font-weight: 600;
+}
+
+/* Images & figures */
+.markdown img, article img, .content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0rem 0;
+}
+.markdown figure, article figure, .content figure { margin: 0.6rem 0; }
+.markdown figcaption, article figcaption, .content figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+/* Small utilities */
+.markdown .caption, article .caption, .content .caption { font-size: 0.9rem; color: #666; }
+
+@media (max-width: 640px) {
+  .markdown, article, .content { padding: 0 0rem; font-size: 15px; max-width: 100%; }
+}
