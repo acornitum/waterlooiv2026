@@ -10,8 +10,8 @@ const { frontmatter } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{frontmatter.title}</title>
   </head>
-  <body class="markdown">
-    <div>
+  <body>
+    <div class="markdown">
       {frontmatter.title ? (
         <>
           
@@ -32,8 +32,60 @@ const { frontmatter } = Astro.props;
         </div>
         </>
       ) : (
-        <slot />
+        <div class="collapsible-markdown">
+          <slot />
+        </div>
       )}
     </div>
+    <script is:inline>
+      document.querySelectorAll('.collapsible-markdown').forEach((root) => {
+        const headings = Array.from(root.children).filter((node) => node.tagName === 'H2');
+
+        headings.forEach((heading, index) => {
+          if (index === 0) {
+            return;
+          }
+
+          const section = document.createElement('section');
+          section.className = 'md-collapse-section';
+
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'md-collapse-toggle';
+          button.setAttribute('aria-expanded', 'false');
+
+          const arrow = document.createElement('img');
+          arrow.src = '/arrow.svg';
+          arrow.alt = '';
+          arrow.className = 'md-collapse-arrow';
+
+          const label = document.createElement('span');
+          label.textContent = heading.textContent ?? '';
+
+          button.append(arrow, label);
+
+          const content = document.createElement('div');
+          content.className = 'md-collapse-content hidden';
+
+          section.append(button, content);
+          heading.before(section);
+          heading.remove();
+
+          let current = section.nextSibling;
+          while (current && !(current.nodeType === Node.ELEMENT_NODE && current.tagName === 'H2')) {
+            const next = current.nextSibling;
+            content.appendChild(current);
+            current = next;
+          }
+
+          button.addEventListener('click', () => {
+            const expanded = button.getAttribute('aria-expanded') === 'true';
+            button.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+            arrow.classList.toggle('rotate-90', !expanded);
+            content.classList.toggle('hidden', expanded);
+          });
+        });
+      });
+    </script>
   </body>
 </html>

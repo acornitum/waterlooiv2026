@@ -142,6 +142,150 @@ article h4, article h5, article h6,
 /* Small utilities */
 .markdown .caption, article .caption, .content .caption { font-size: 0.9rem; color: #666; }
 
+.markdown {
+  max-width: 72rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.markdown > div,
+.markdown > article,
+.markdown > .content {
+  max-width: 100%;
+}
+
+.markdown h2,
+article h2,
+.content h2 {
+  margin-top: 2.25rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #f0e3ad;
+}
+
+.markdown h3,
+article h3,
+.content h3 {
+  margin-top: 0;
+}
+
+.markdown table,
+article table,
+.content table {
+  background: rgba(255, 254, 252, 0.86);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.markdown th,
+.markdown td,
+article th,
+article td,
+.content th,
+.content td {
+  border-color: #efe4b9;
+  vertical-align: top;
+}
+
+.markdown th,
+article th,
+.content th {
+  background: #f9edbd;
+}
+
+.markdown .tp-callout {
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.15rem;
+  border: 2px solid #f0df9d;
+  background: rgba(254, 246, 209, 0.7);
+  box-shadow: 6px 6px 0 rgba(34, 34, 34, 0.06);
+}
+
+.markdown .tp-callout p {
+  margin: 0.45rem 0;
+}
+
+.markdown .tp-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.1rem 0 1.4rem;
+}
+
+.markdown .tp-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.markdown .tp-grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.markdown .tp-card {
+  padding: 1rem 1.1rem;
+  border: 2px solid #f0df9d;
+  background: rgba(255, 254, 252, 0.9);
+  box-shadow: 6px 6px 0 rgba(34, 34, 34, 0.05);
+}
+
+.markdown .tp-card p:first-child,
+.markdown .tp-card h3:first-child {
+  margin-top: 0;
+}
+
+.markdown .tp-card p:last-child,
+.markdown .tp-card h3:last-child {
+  margin-bottom: 0;
+}
+
+.markdown .tp-eyebrow {
+  margin: 0 0 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8b6b00;
+}
+
+.markdown .md-collapse-section {
+  margin: 1.75rem 0;
+}
+
+.markdown .md-collapse-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.15rem 0.35rem;
+  border: 0;
+  background: transparent;
+  color: #222;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-radius: 0.35rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.markdown .md-collapse-toggle:hover {
+  background: #fde68a;
+}
+
+.markdown .md-collapse-arrow {
+  width: 1rem;
+  height: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.markdown .md-collapse-content {
+  padding-left: 1.7rem;
+  padding-top: 0.35rem;
+}
+
 @media (max-width: 640px) {
   .markdown, article, .content { padding: 0 0rem; font-size: 15px; max-width: 100%; }
+}
+
+@media (max-width: 900px) {
+  .markdown .tp-grid-2,
+  .markdown .tp-grid-3 {
+    grid-template-columns: 1fr;
+  }
 }
