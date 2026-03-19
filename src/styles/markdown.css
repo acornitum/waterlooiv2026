@@ -61,10 +61,36 @@ article h4, article h5, article h6,
 
 /* Links */
 .markdown a, article a, .content a {
-  color: #0366d6;
-  text-decoration: underline;
+  color: #1f4fd1;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-weight: 600;
 }
-.markdown a:hover, article a:hover, .content a:hover { text-decoration: none; }
+.markdown a::after, article a::after, .content a::after {
+  content: "";
+  width: 1.15rem;
+  height: 1.15rem;
+  flex: 0 0 1.15rem;
+  border: 2px solid #f0df9d;
+  border-radius: 999px;
+  background: #fff8dc;
+  background-image: url("/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.55rem 0.55rem;
+  transform: rotate(-45deg);
+  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+.markdown a:hover, article a:hover, .content a:hover {
+  color: #163da6;
+}
+.markdown a:hover::after, article a:hover::after, .content a:hover::after {
+  transform: rotate(-45deg) translate(1px, -1px);
+  background-color: #fde68a;
+  border-color: #e5c85a;
+}
 
 /* Inline code */
 .markdown code, article code, .content code {
@@ -142,6 +168,241 @@ article h4, article h5, article h6,
 /* Small utilities */
 .markdown .caption, article .caption, .content .caption { font-size: 0.9rem; color: #666; }
 
+.markdown {
+  max-width: 72rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.markdown > div,
+.markdown > article,
+.markdown > .content {
+  max-width: 100%;
+}
+
+.markdown h2,
+article h2,
+.content h2 {
+  margin-top: 2.25rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #f0e3ad;
+}
+
+.markdown h3,
+article h3,
+.content h3 {
+  margin-top: 0;
+}
+
+.markdown table,
+article table,
+.content table {
+  background: rgba(255, 254, 252, 0.86);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.markdown th,
+.markdown td,
+article th,
+article td,
+.content th,
+.content td {
+  border-color: #efe4b9;
+  vertical-align: top;
+}
+
+.markdown th,
+article th,
+.content th {
+  background: #f9edbd;
+}
+
+.markdown .tp-callout {
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.15rem;
+  border: 2px solid #f0df9d;
+  background: rgba(254, 246, 209, 0.7);
+}
+
+.markdown .tp-callout p {
+  margin: 0.45rem 0;
+}
+
+.markdown .tp-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.1rem 0 1.4rem;
+}
+
+.markdown .tp-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.markdown .tp-grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.markdown .tp-grid-ca {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.markdown .tp-grid-ca > .tp-ca-card {
+  grid-column: span 2;
+}
+
+.markdown .tp-grid-ca > .tp-ca-card:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+
+.markdown .tp-grid-ca > .tp-ca-card:nth-child(5) {
+  grid-column: 4 / span 2;
+}
+
+.markdown .tp-card {
+  padding: 1rem 1.1rem;
+  border: 2px solid #f0df9d;
+  background: rgba(255, 254, 252, 0.9);
+}
+
+.markdown .tp-card p:first-child,
+.markdown .tp-card h3:first-child {
+  margin-top: 0;
+}
+
+.markdown .tp-card p:last-child,
+.markdown .tp-card h3:last-child {
+  margin-bottom: 0;
+}
+
+.markdown .tp-eyebrow {
+  margin: 0 0 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8b6b00;
+}
+
+.markdown .tp-ca-card {
+  position: relative;
+  padding: 0.35rem;
+  border: 2px solid #e5c85a;
+  background:
+    linear-gradient(135deg, rgba(255, 250, 232, 0.96), rgba(255, 254, 252, 0.98));
+  overflow: hidden;
+}
+
+.markdown .tp-ca-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at top right, rgba(250, 204, 21, 0.2), transparent 32%),
+    linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.22));
+  pointer-events: none;
+}
+
+.markdown .tp-ca-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.markdown .tp-ca-portrait {
+  margin: 0;
+  padding: 0.08rem;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  background: rgba(255, 255, 255, 0.82);
+}
+
+.markdown .tp-ca-portrait img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  display: block;
+  border: 0;
+}
+
+.markdown .md-collapse-section {
+  margin: 1.75rem 0;
+}
+
+.markdown .md-collapse-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.15rem 0.35rem;
+  border: 0;
+  background: transparent;
+  color: #222;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-radius: 0.35rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.markdown .md-collapse-toggle:hover {
+  background: #fde68a;
+}
+
+.markdown .md-collapse-arrow {
+  width: 1rem;
+  height: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.markdown .md-collapse-content {
+  padding-left: 1.7rem;
+  padding-top: 0.35rem;
+}
+
+.markdown .tp-discord {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0.25rem;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid #d7d8ff;
+  border-radius: 999px;
+  background: #f7f8ff;
+}
+
+.markdown .tp-discord-icon {
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 1rem;
+}
+
+.markdown .tp-discord-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #5865f2;
+}
+
+.markdown .tp-discord-handle {
+  font-weight: 600;
+  color: #222;
+}
+
 @media (max-width: 640px) {
   .markdown, article, .content { padding: 0 0rem; font-size: 15px; max-width: 100%; }
+}
+
+@media (max-width: 900px) {
+  .markdown .tp-grid-2,
+  .markdown .tp-grid-3,
+  .markdown .tp-grid-ca {
+    grid-template-columns: 1fr;
+  }
+
+  .markdown .tp-grid-ca > .tp-ca-card,
+  .markdown .tp-grid-ca > .tp-ca-card:nth-child(4),
+  .markdown .tp-grid-ca > .tp-ca-card:nth-child(5) {
+    grid-column: auto;
+  }
 }

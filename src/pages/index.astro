@@ -1,6 +1,5 @@
 ---
 import '../styles/global.css' 
-import About from './about.md'
 import Info from './tournament-info.md'
 ---
 
@@ -36,16 +35,61 @@ import Info from './tournament-info.md'
 
 					<div class="flex flex-row justify-between items-center w-full">
 						<img src="/logo.png" width="80px"/>
-						<button class="text-xl border-amber-200 border-3 px-6 py-2 bg-[#FEFEFC] hover:scale-103 transition-all">
-							REGISTER
-						</button>
+						<div class="relative">
+							<button
+								type="button"
+								class="register-toggle text-xl border-amber-200 border-3 px-6 py-2 bg-[#FEFEFC] hover:scale-103 transition-all inline-flex items-center gap-3"
+								aria-expanded="false"
+								aria-controls="register-menu"
+							>
+								REGISTER
+								<img src="/arrow.svg" alt="" class="register-arrow w-4 h-4 transition-transform duration-200" />
+							</button>
+							<div
+								id="register-menu"
+								class="register-menu hidden absolute right-0 top-full mt-3 min-w-[18rem] border-3 border-[#222222] bg-[#FEFEFC] p-2 z-20"
+							>
+								<a
+									href="https://forms.gle/Si899bp2A7XmkSDm7"
+									target="_blank"
+									rel="noreferrer noopener"
+									class="register-link block border-2 border-transparent px-4 py-3 hover:border-amber-200 hover:bg-amber-50 transition-colors"
+								>
+									<span class="block text-sm font-mono uppercase tracking-[0.14em] text-[#8b6b00]">Institutional</span>
+									<span class="block text-lg text-[#222222]">Register teams and judges as an institution</span>
+									<span class="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-[#1f4fd1]">
+										Open form
+										<img src="/arrow.svg" alt="" class="w-3 h-3 -rotate-45" />
+									</span>
+								</a>
+								<a
+									href="https://forms.gle/PZF1CtbjiixHXJAY8"
+									target="_blank"
+									rel="noreferrer noopener"
+									class="register-link block border-2 border-transparent px-4 py-3 hover:border-amber-200 hover:bg-amber-50 transition-colors"
+								>
+									<span class="block text-sm font-mono uppercase tracking-[0.14em] text-[#8b6b00]">Independent</span>
+									<span class="block text-lg text-[#222222]">Register as an independent team</span>
+									<span class="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-[#1f4fd1]">
+										Open form
+										<img src="/arrow.svg" alt="" class="w-3 h-3 -rotate-45" />
+									</span>
+								</a>
+							</div>
+						</div>
 					</div>
 
 
-					<div class=" bg-amber-200 px-6 items-start mt-6">
+					<div class="relative bg-amber-200 px-6 items-start mt-6">
 						<p class="text-3xl md:text-5xl font-semibold font-mono text-[#222222]">WATERLOO IV 2026</p>
+						<img
+							src="/flying-goose.svg"
+							alt=""
+							aria-hidden="true"
+							class="absolute hidden md:block w-20 -right-10 -top-12 -rotate-[10deg] opacity-85 pointer-events-none"
+						/>
 					</div>
-					<div class="text-xl flex flex-row justify-between w-full">
+					<div class="text-xl flex flex-row justify-between w-full mt-3 mb-4">
 						<p>TOURNAMENT PACKAGE</p>
 						<p class="text-right">MAY 23 - 24 @ UWATERLOO</p>
 					</div>
@@ -61,26 +105,7 @@ import Info from './tournament-info.md'
 						
 					</div>
 					
-
-					
-
 					<div class="max-w-6xl mt-6">
-						<About />
-					</div>
-
-					<div class="max-w-6xl mt-6">
-						<Info />
-					</div>
-
-					<div class="max-w-6xl">
-						<Info />
-					</div>
-
-					<div class="max-w-6xl">
-						<Info />
-					</div>
-
-					<div class="max-w-6xl">
 						<Info />
 					</div>
 
@@ -94,12 +119,49 @@ import Info from './tournament-info.md'
 
 
 
-		<div class="flex flex-col items-center mt-24 bg-[#222222] text-white h-100 relative overflow-hidden">
+		<div class="flex flex-col items-center pt-24 mt-24 bg-[#222222] text-white h-100 relative overflow-hidden">
 			<img src="/campfire.png" class="absolute w-125 top-0 left-12 lg:left-24"/>
-			<p>this is a footer</p>
+			<p>Made with ❤️ by Acon, Jon, and Elaine</p>
 		</div>
 
 
 		
 	</body>
 </html>
+
+<script is:inline>
+	const registerToggle = document.querySelector('.register-toggle');
+	const registerMenu = document.querySelector('.register-menu');
+	const registerArrow = document.querySelector('.register-arrow');
+
+	if (registerToggle && registerMenu && registerArrow) {
+		const closeMenu = () => {
+			registerMenu.classList.add('hidden');
+			registerArrow.classList.remove('rotate-90');
+			registerToggle.setAttribute('aria-expanded', 'false');
+		};
+
+		registerToggle.addEventListener('click', (event) => {
+			event.stopPropagation();
+			const isHidden = registerMenu.classList.contains('hidden');
+			if (isHidden) {
+				registerMenu.classList.remove('hidden');
+				registerArrow.classList.add('rotate-90');
+				registerToggle.setAttribute('aria-expanded', 'true');
+			} else {
+				closeMenu();
+			}
+		});
+
+		registerMenu.addEventListener('click', (event) => {
+			event.stopPropagation();
+		});
+
+		document.addEventListener('click', closeMenu);
+		document.addEventListener('keydown', (event) => {
+			if (event.key === 'Escape') {
+				closeMenu();
+			}
+		});
+	}
+</script>
