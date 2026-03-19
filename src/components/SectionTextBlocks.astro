@@ -1,0 +1,19 @@
+---
+const { textBlocks = [] } = Astro.props;
+---
+
+{textBlocks.map((block) => (
+  <>
+    <h3>{block.title}</h3>
+    {block.paragraphs?.map((paragraph) => (
+      <p>{paragraph}</p>
+    ))}
+    {block.bullets && (
+      <ul>
+        {block.bullets.map((bullet) => (
+          <li>{bullet}</li>
+        ))}
+      </ul>
+    )}
+  </>
+))}

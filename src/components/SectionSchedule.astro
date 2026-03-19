@@ -1,0 +1,30 @@
+---
+const { days = [] } = Astro.props;
+---
+
+<div class="tp-grid tp-grid-2">
+  {days.map((day) => (
+    <div class="tp-card">
+      <p class="tp-eyebrow">{day.eyebrow}</p>
+      <h3>{day.title}</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          {day.rows.map((row) => (
+            <tr>
+              <td>{row.time}</td>
+              <td>{row.event}</td>
+              <td>{row.notes}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  ))}
+</div>

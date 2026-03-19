@@ -1,0 +1,17 @@
+---
+const { pageTitle, intro = [], callout = [] } = Astro.props;
+---
+
+<section>
+  <h2>{pageTitle}</h2>
+  {intro.map((paragraph) => (
+    <p>{paragraph}</p>
+  ))}
+  <div class="tp-callout">
+    {callout.map((item) => (
+      <p>
+        <strong>{item.label}:</strong> {item.value}
+      </p>
+    ))}
+  </div>
+</section>

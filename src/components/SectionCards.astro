@@ -1,0 +1,48 @@
+---
+const { sectionTitle, cards = [] } = Astro.props;
+const gridClass =
+  sectionTitle === 'Fees and Compensation' ||
+  sectionTitle === 'Socials' ||
+  sectionTitle === 'Organizers and Contacts'
+    ? 'tp-grid-3'
+    : 'tp-grid-2';
+---
+
+<div class:list={['tp-grid', gridClass]}>
+  {cards.map((card) => (
+    <div class="tp-card">
+      <p class="tp-eyebrow">{card.eyebrow}</p>
+      <h3>{card.title}</h3>
+      {card.body?.map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+      {card.metaLabel && (
+        <p>
+          <strong>{card.metaLabel}:</strong> {card.metaValue}
+        </p>
+      )}
+      {card.email && (
+        <p>
+          <a href={`mailto:${card.email}`}>{card.email}</a>
+        </p>
+      )}
+      {card.discord && (
+        <div class="tp-discord">
+          <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
+          <span class="tp-discord-label">Discord</span>
+          <span class="tp-discord-handle">{card.discord}</span>
+        </div>
+      )}
+      {card.linkLabel && card.linkHref && (
+        <p>
+          <a href={card.linkHref}>{card.linkLabel}</a>
+        </p>
+      )}
+      {card.status && (
+        <p>
+          <em>{card.status}</em>
+        </p>
+      )}
+    </div>
+  ))}
+</div>

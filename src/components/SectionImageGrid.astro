@@ -1,0 +1,13 @@
+---
+const { images = [] } = Astro.props;
+---
+
+<div class="tp-grid tp-grid-ca">
+  {images.map((image) => (
+    <div class="tp-ca-card">
+      <div class="tp-ca-portrait">
+        <img src={image.src} alt={image.alt} />
+      </div>
+    </div>
+  ))}
+</div>

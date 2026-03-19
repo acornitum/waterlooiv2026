@@ -1,0 +1,42 @@
+---
+import SectionCards from './SectionCards.astro';
+import SectionTextBlocks from './SectionTextBlocks.astro';
+import SectionSchedule from './SectionSchedule.astro';
+import SectionImageGrid from './SectionImageGrid.astro';
+
+const { section } = Astro.props;
+
+const inlineCodeParts = (text) =>
+  text.split(/`([^`]+)`/g).map((value, index) => ({
+    type: index % 2 === 1 ? 'code' : 'text',
+    value,
+  }));
+---
+
+<section class="md-collapse-section">
+  <button type="button" class="md-collapse-toggle" aria-expanded="false">
+    <img src="/arrow.svg" class="md-collapse-arrow" alt="" />
+    <span>{section.title}</span>
+  </button>
+  <div class="md-collapse-content hidden">
+    {section.intro &&
+      section.intro.map((paragraph) => (
+        <p>
+          {inlineCodeParts(paragraph).map((part) =>
+            part.type === 'code' ? <code>{part.value}</code> : part.value
+          )}
+        </p>
+      ))}
+
+    {section.note && (
+      <p>
+        <code>{section.note}</code>
+      </p>
+    )}
+
+    {section.cards && <SectionCards sectionTitle={section.title} cards={section.cards} />}
+    {section.textBlocks && <SectionTextBlocks textBlocks={section.textBlocks} />}
+    {section.days && <SectionSchedule days={section.days} />}
+    {section.images && <SectionImageGrid images={section.images} />}
+  </div>
+</section>

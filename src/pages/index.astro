@@ -1,167 +1,102 @@
 ---
-import '../styles/global.css' 
-import Info from './tournament-info.md'
+import '../styles/global.css';
+import '../styles/markdown.css';
+import { frontmatter as info } from './tournament-info.md';
+import HeroSection from '../components/HeroSection.astro';
+import TournamentIntro from '../components/TournamentIntro.astro';
+import CollapsibleSection from '../components/CollapsibleSection.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+const sections = info.sections;
+const collapsibleSections = [
+  sections.importantDates,
+  sections.tournamentDetails,
+  sections.fees,
+  sections.chiefAdjudicators,
+  sections.schedule,
+  sections.logistics,
+  sections.forms,
+  sections.usefulLinks,
+  sections.contacts,
+  sections.socials,
+];
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Waterloo IV 2026</title>
-	</head>
-	<body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Waterloo IV 2026</title>
+  </head>
+  <body>
+    <div class="pt-12">
+      <div class="flex flex-col items-center">
+        <div class="w-full">
+          <HeroSection />
 
-		
-		{/* <div class="w-full">
-			<div class="flex flex-row flex-wrap justify-between items-center w-full">
-				<img class="w-1/6 object-contain border-4 border-[#FEE685] rotate-[0.7deg]" src="/pic1.png" alt="pic1"/>
-				<img class="w-1/6 object-contain border-4 border-[#FEE685] rotate-[-0.9deg]" src="/pic2.png" alt="pic2"/>
-				<img class="w-1/6 object-contain border-4 border-[#FEE685] rotate-[0.3deg]" src="/pic3.png" alt="pic3"/>
-				<img class="w-1/6 object-contain border-4 border-[#FEE685] rotate-[-0.5deg]" src="/pic4.png" alt="pic4"/>
-				<img class="w-1/6 object-contain border-4 border-[#FEE685] rotate-[0.83deg]" src="/pic5.png" alt="pic5"/>
-				<img class="w-1/6 object-contain border-4 border-[#FEE685] rotate-[-0.2deg]" src="/pic6.png" alt="pic6"/>
-			</div>
-		</div>*/}
-		
+          <div class="max-w-6xl mt-6 w-full mx-auto px-5">
+            <div class="markdown">
+              <TournamentIntro pageTitle={info.pageTitle} intro={info.intro} callout={info.callout} />
+              {collapsibleSections.map((section) => (
+                <CollapsibleSection section={section} />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<div class="pt-12">
-
-		
-			<div class="flex flex-col items-center">
-				<div class="flex flex-col items-start w-full max-w-6xl mx-auto px-5">
-
-					<div class="flex flex-row justify-between items-center w-full">
-						<img src="/logo.png" width="80px"/>
-						<div class="relative">
-							<button
-								type="button"
-								class="register-toggle text-xl border-amber-200 border-3 px-6 py-2 bg-[#FEFEFC] hover:scale-103 transition-all inline-flex items-center gap-3"
-								aria-expanded="false"
-								aria-controls="register-menu"
-							>
-								REGISTER
-								<img src="/arrow.svg" alt="" class="register-arrow w-4 h-4 transition-transform duration-200" />
-							</button>
-							<div
-								id="register-menu"
-								class="register-menu hidden absolute right-0 top-full mt-3 min-w-[18rem] border-3 border-[#222222] bg-[#FEFEFC] p-2 z-20"
-							>
-								<a
-									href="https://forms.gle/Si899bp2A7XmkSDm7"
-									target="_blank"
-									rel="noreferrer noopener"
-									class="register-link block border-2 border-transparent px-4 py-3 hover:border-amber-200 hover:bg-amber-50 transition-colors"
-								>
-									<span class="block text-sm font-mono uppercase tracking-[0.14em] text-[#8b6b00]">Institutional</span>
-									<span class="block text-lg text-[#222222]">Register teams and judges as an institution</span>
-									<span class="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-[#1f4fd1]">
-										Open form
-										<img src="/arrow.svg" alt="" class="w-3 h-3 -rotate-45" />
-									</span>
-								</a>
-								<a
-									href="https://forms.gle/PZF1CtbjiixHXJAY8"
-									target="_blank"
-									rel="noreferrer noopener"
-									class="register-link block border-2 border-transparent px-4 py-3 hover:border-amber-200 hover:bg-amber-50 transition-colors"
-								>
-									<span class="block text-sm font-mono uppercase tracking-[0.14em] text-[#8b6b00]">Independent</span>
-									<span class="block text-lg text-[#222222]">Register as an independent team</span>
-									<span class="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-[#1f4fd1]">
-										Open form
-										<img src="/arrow.svg" alt="" class="w-3 h-3 -rotate-45" />
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-
-
-					<div class="relative bg-amber-200 px-6 items-start mt-6">
-						<p class="text-3xl md:text-5xl font-semibold font-mono text-[#222222]">WATERLOO IV 2026</p>
-						<img
-							src="/flying-goose.svg"
-							alt=""
-							aria-hidden="true"
-							class="absolute hidden md:block w-20 -right-10 -top-12 -rotate-[10deg] opacity-85 pointer-events-none"
-						/>
-					</div>
-					<div class="text-xl flex flex-row justify-between w-full mt-3 mb-4">
-						<p>TOURNAMENT PACKAGE</p>
-						<p class="text-right">MAY 23 - 24 @ UWATERLOO</p>
-					</div>
-
-					<div class="relative">
-						<img src="/pics.png" class=""/>
-						<div class="hidden md:block">
-							<img src="/border_leaves.png" width="170px" class="absolute -top-3 -left-3"/>
-							<img src="/border.png" width="170px" class="absolute -top-3 -right-3 rotate-90"/>
-							<img src="/border_leaves.png" width="170px" class="absolute -bottom-3 -right-3 rotate-180"/>
-							<img src="/border.png" width="170px" class="absolute -bottom-3 -left-3 rotate-270"/>
-						</div>
-						
-					</div>
-					
-					<div class="max-w-6xl mt-6">
-						<Info />
-					</div>
-
-
-				</div>
-
-			</div>
-
-		</div>
-
-
-
-
-		<div class="flex flex-col items-center pt-24 mt-24 bg-[#222222] text-white h-100 relative overflow-hidden">
-			<img src="/campfire.png" class="absolute w-125 top-0 left-12 lg:left-24"/>
-			<p>Made with ❤️ by Acon, Jon, and Elaine</p>
-		</div>
-
-
-		
-	</body>
+    <SiteFooter />
+  </body>
 </html>
 
 <script is:inline>
-	const registerToggle = document.querySelector('.register-toggle');
-	const registerMenu = document.querySelector('.register-menu');
-	const registerArrow = document.querySelector('.register-arrow');
+  const registerToggle = document.querySelector('.register-toggle');
+  const registerMenu = document.querySelector('.register-menu');
+  const registerArrow = document.querySelector('.register-arrow');
 
-	if (registerToggle && registerMenu && registerArrow) {
-		const closeMenu = () => {
-			registerMenu.classList.add('hidden');
-			registerArrow.classList.remove('rotate-90');
-			registerToggle.setAttribute('aria-expanded', 'false');
-		};
+  if (registerToggle && registerMenu && registerArrow) {
+    const closeMenu = () => {
+      registerMenu.classList.add('hidden');
+      registerArrow.classList.remove('rotate-90');
+      registerToggle.setAttribute('aria-expanded', 'false');
+    };
 
-		registerToggle.addEventListener('click', (event) => {
-			event.stopPropagation();
-			const isHidden = registerMenu.classList.contains('hidden');
-			if (isHidden) {
-				registerMenu.classList.remove('hidden');
-				registerArrow.classList.add('rotate-90');
-				registerToggle.setAttribute('aria-expanded', 'true');
-			} else {
-				closeMenu();
-			}
-		});
+    registerToggle.addEventListener('click', (event) => {
+      event.stopPropagation();
+      const isHidden = registerMenu.classList.contains('hidden');
+      if (isHidden) {
+        registerMenu.classList.remove('hidden');
+        registerArrow.classList.add('rotate-90');
+        registerToggle.setAttribute('aria-expanded', 'true');
+      } else {
+        closeMenu();
+      }
+    });
 
-		registerMenu.addEventListener('click', (event) => {
-			event.stopPropagation();
-		});
+    registerMenu.addEventListener('click', (event) => {
+      event.stopPropagation();
+    });
 
-		document.addEventListener('click', closeMenu);
-		document.addEventListener('keydown', (event) => {
-			if (event.key === 'Escape') {
-				closeMenu();
-			}
-		});
-	}
+    document.addEventListener('click', closeMenu);
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        closeMenu();
+      }
+    });
+  }
+
+  document.querySelectorAll('.md-collapse-toggle').forEach((toggle) => {
+    const content = toggle.nextElementSibling;
+    const arrow = toggle.querySelector('.md-collapse-arrow');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      arrow?.classList.toggle('rotate-90', !expanded);
+      content?.classList.toggle('hidden', expanded);
+    });
+  });
 </script>
