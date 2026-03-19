@@ -373,7 +373,7 @@ This is a tentative schedule, but things are unlikely to change. Any `dietary re
   <div class="tp-card">
     <p class="tp-eyebrow">Tournament Director</p>
     <h3>Jonathan Lyashko</h3>
-    <p><a href="mailto:uwdsintervarsities@gmail.com">uwdsintervarsities@gmail.com</a></p>
+    <p><a href="mailto:jlyashko@uwaterloo.ca">jlyashko@uwaterloo.ca</a></p>
     <div class="tp-discord">
       <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
       <span class="tp-discord-label">Discord</span>
