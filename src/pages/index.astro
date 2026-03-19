@@ -47,7 +47,7 @@ import Info from './tournament-info.md'
 							</button>
 							<div
 								id="register-menu"
-								class="register-menu hidden absolute right-0 top-full mt-3 min-w-[18rem] border-3 border-[#222222] bg-[#FEFEFC] p-2 z-20 shadow-[6px_6px_0_rgba(34,34,34,0.1)]"
+								class="register-menu hidden absolute right-0 top-full mt-3 min-w-[18rem] border-3 border-[#222222] bg-[#FEFEFC] p-2 z-20"
 							>
 								<a
 									href="https://forms.gle/Si899bp2A7XmkSDm7"
@@ -137,7 +137,7 @@ import Info from './tournament-info.md'
 	if (registerToggle && registerMenu && registerArrow) {
 		const closeMenu = () => {
 			registerMenu.classList.add('hidden');
-			registerArrow.classList.remove('rotate-180');
+			registerArrow.classList.remove('rotate-90');
 			registerToggle.setAttribute('aria-expanded', 'false');
 		};
 
@@ -146,7 +146,7 @@ import Info from './tournament-info.md'
 			const isHidden = registerMenu.classList.contains('hidden');
 			if (isHidden) {
 				registerMenu.classList.remove('hidden');
-				registerArrow.classList.add('rotate-180');
+				registerArrow.classList.add('rotate-90');
 				registerToggle.setAttribute('aria-expanded', 'true');
 			} else {
 				closeMenu();
