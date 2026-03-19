@@ -137,15 +137,20 @@ article h4, article h5, article h6,
 /* Tables */
 .markdown table, article table, .content table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   margin: 0.75rem 0;
   overflow: auto;
+  border-radius: 0.375rem;
+  border: 2px solid #F9EEBD;
 }
 .markdown th, .markdown td, article th, article td, .content th, .content td {
-  border: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
   padding: 0.45rem 0.6rem;
   text-align: left;
 }
+
 .markdown th, article th, .content th {
   background: #f7f7f7;
   font-weight: 600;

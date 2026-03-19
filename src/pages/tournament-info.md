@@ -13,6 +13,55 @@ A centralized tournament package for debaters, judges, and guests. This page is 
   <p><strong>Status:</strong> Registration open, billeting available, dinos welcome</p>
 </div>
 
+This is a `tentative schedule`, but things are unlikely to change. Any dietary restrictions should be submitted in the participant information form.
+
+<div class="flex flex-col md:flex-row gap-8">
+  <div class="flex-1">
+    <h3>Saturday, May 23rd</h3>
+    <table class="w-full">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Event</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>8:30 – 9:00 AM</td><td>Check in and breakfast</td></tr>
+        <tr><td>9:00 – 9:45 AM</td><td>Briefings</td></tr>
+        <tr><td>9:45 – 11:45 AM</td><td>Round 1</td></tr>
+        <tr><td>11:45 AM – 12:30 PM</td><td>Lunch</td></tr>
+        <tr><td>12:30 – 2:30 PM</td><td>Round 2</td></tr>
+        <tr><td>2:30 – 4:30 PM</td><td>Round 3</td></tr>
+        <tr><td>4:30 – 6:30 PM</td><td>Round 4 (Closed)</td></tr>
+        <tr><td>8:30 PM</td><td>Social – Firepit @ Columbia Lake</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="flex-1">
+    <h3>Sunday, May 24th</h3>
+    <table class="w-full">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Event</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>8:45 – 9:30 AM</td><td>Check in and breakfast</td></tr>
+        <tr><td>9:30 – 11:30 AM</td><td>Round 5</td></tr>
+        <tr><td>11:30 AM – 12:15 PM</td><td>Lunch</td></tr>
+        <tr><td>12:15 – 12:30 PM</td><td>Break announcement</td></tr>
+        <tr><td>12:30 – 2:30 PM</td><td>Semifinals and novice finals</td></tr>
+        <tr><td>2:30 – 4:30 PM</td><td>Grand finals</td></tr>
+        <tr><td>4:45 PM</td><td>Awards</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
 ## Important Dates
 
 <div class="tp-grid tp-grid-2">
@@ -136,118 +185,6 @@ This is our `star studded collection.` Read through each CA's Pokemon card to fi
     <div class="tp-ca-portrait">
       <img src="/WIV--open-spot.png" alt="Placeholder chief adjudicator card art" />
     </div>
-  </div>
-</div>
-
-## Schedule
-
-This is a tentative schedule, but things are unlikely to change. Any `dietary restrictions` should be submitted in the `participant information form.`
-
-<div class="tp-grid tp-grid-2">
-  <div class="tp-card">
-    <p class="tp-eyebrow">Saturday</p>
-    <h3>May 23rd</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Time</th>
-          <th>Event</th>
-          <th>Notes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>8:30 AM - 9:00 AM</td>
-          <td>Check in and breakfast</td>
-          <td>Hard drop at 9:00 AM will be enforced.</td>
-        </tr>
-        <tr>
-          <td>9:00 AM - 9:45 AM</td>
-          <td>Briefings</td>
-          <td>Tournament, debater, judge, and equity briefings.</td>
-        </tr>
-        <tr>
-          <td>9:45 AM - 11:45 AM</td>
-          <td>Round 1</td>
-          <td>Open adjudication.</td>
-        </tr>
-        <tr>
-          <td>11:45 AM - 12:30 PM</td>
-          <td>Lunch</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>12:30 PM - 2:30 PM</td>
-          <td>Round 2</td>
-          <td>Open adjudication.</td>
-        </tr>
-        <tr>
-          <td>2:30 PM - 4:30 PM</td>
-          <td>Round 3</td>
-          <td>Open adjudication.</td>
-        </tr>
-        <tr>
-          <td>4:30 PM - 6:30 PM</td>
-          <td>Round 4</td>
-          <td>Closed adjudication.</td>
-        </tr>
-        <tr>
-          <td>8:30 PM</td>
-          <td>Social</td>
-          <td>Firepit on the lake.</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Sunday</p>
-    <h3>May 24th</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Time</th>
-          <th>Event</th>
-          <th>Notes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>8:45 AM - 9:30 AM</td>
-          <td>Check in and breakfast</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>9:30 AM - 11:30 AM</td>
-          <td>Round 5</td>
-          <td>Open adjudication.</td>
-        </tr>
-        <tr>
-          <td>11:30 AM - 12:15 PM</td>
-          <td>Lunch</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>12:15 PM - 12:30 PM</td>
-          <td>Break announcement</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>12:30 PM - 2:30 PM</td>
-          <td>Semifinals and novice finals</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>2:30 PM - 4:30 PM</td>
-          <td>Grand finals</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>4:45 PM</td>
-          <td>Awards</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
   </div>
 </div>
 
