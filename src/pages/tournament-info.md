@@ -384,11 +384,21 @@ This is a tentative schedule, but things are unlikely to change. Any `dietary re
     <p class="tp-eyebrow">Tournament Director</p>
     <h3>Acon Lin</h3>
     <p><a href="mailto:uwdsintervarsities@gmail.com">uwdsintervarsities@gmail.com</a></p>
+    <div class="tp-discord">
+      <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
+      <span class="tp-discord-label">Discord</span>
+      <span class="tp-discord-handle">acorni</span>
+    </div>
   </div>
   <div class="tp-card">
     <p class="tp-eyebrow">Tournament Director and Tabs</p>
     <h3>Elaine Zhao</h3>
     <p><a href="mailto:uwdsintervarsities@gmail.com">uwdsintervarsities@gmail.com</a></p>
+    <div class="tp-discord">
+      <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
+      <span class="tp-discord-label">Discord</span>
+      <span class="tp-discord-handle">eelaine</span>
+    </div>
   </div>
   <div class="tp-card">
     <p class="tp-eyebrow">Tabs</p>
