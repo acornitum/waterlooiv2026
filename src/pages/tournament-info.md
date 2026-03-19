@@ -107,7 +107,41 @@ By attending this event, you consent to being photographed or recorded for promo
   </div>
 </div>
 
+## Chief Adjudicators
+
+This is our `star studded collection.` Read through each CA's Pokemon card to find out more about them.
+
+<div class="tp-grid tp-grid-ca">
+  <div class="tp-ca-card">
+    <div class="tp-ca-portrait">
+      <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
+    </div>
+  </div>
+  <div class="tp-ca-card">
+    <div class="tp-ca-portrait">
+      <img src="/WIV--unknown.png" alt="Placeholder chief adjudicator card art" />
+    </div>
+  </div>
+  <div class="tp-ca-card">
+    <div class="tp-ca-portrait">
+      <img src="/WIV--hidden.png" alt="Placeholder chief adjudicator card art" />
+    </div>
+  </div>
+  <div class="tp-ca-card">
+    <div class="tp-ca-portrait">
+      <img src="/WIV--undiscovered.png" alt="Placeholder chief adjudicator card art" />
+    </div>
+  </div>
+  <div class="tp-ca-card">
+    <div class="tp-ca-portrait">
+      <img src="/WIV--open-spot.png" alt="Placeholder chief adjudicator card art" />
+    </div>
+  </div>
+</div>
+
 ## Schedule
+
+This is a tentative schedule, but things are unlikely to change. Any `dietary restrictions` should be submitted in the `participant information form.`
 
 <div class="tp-grid tp-grid-2">
   <div class="tp-card">
@@ -279,6 +313,11 @@ By attending this event, you consent to being photographed or recorded for promo
     <h3>Independent Adjudicator Application</h3>
     <p>Please specify your total desired compensation in your application.</p>
   </div>
+  <div class="tp-card">
+    <p class="tp-eyebrow">Unreleased</p>
+    <h3>Deputy Chief Adjudicator Application</h3>
+    <p>Opening soon!</p>
+  </div>
 </div>
 
 ## Useful Links
@@ -335,7 +374,11 @@ By attending this event, you consent to being photographed or recorded for promo
     <p class="tp-eyebrow">Tournament Director</p>
     <h3>Jonathan Lyashko</h3>
     <p><a href="mailto:uwdsintervarsities@gmail.com">uwdsintervarsities@gmail.com</a></p>
-    <p>Discord: jonathanlyashko</p>
+    <div class="tp-discord">
+      <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
+      <span class="tp-discord-label">Discord</span>
+      <span class="tp-discord-handle">jonathanlyashko</span>
+    </div>
   </div>
   <div class="tp-card">
     <p class="tp-eyebrow">Tournament Director</p>
@@ -364,20 +407,32 @@ By attending this event, you consent to being photographed or recorded for promo
     <h3>Hidden</h3>
   </div>
   <div class="tp-card">
+    <p class="tp-eyebrow">Chief Adjudicator</p>
+    <h3>Undiscovered</h3>
+  </div>
+  <div class="tp-card">
     <p class="tp-eyebrow">Deputy Chief Adjudicator</p>
-    <h3>Applications Open</h3>
+    <h3>Applications Open Soon</h3>
   </div>
   <div class="tp-card">
     <p class="tp-eyebrow">Equity Officer</p>
     <h3>Nyx Kucharski</h3>
     <p><a href="mailto:nyxkucharski@gmail.com">nyxkucharski@gmail.com</a></p>
-    <p>Discord: nyxk._.</p>
+    <div class="tp-discord">
+      <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
+      <span class="tp-discord-label">Discord</span>
+      <span class="tp-discord-handle">nyxk._.</span>
+    </div>
   </div>
   <div class="tp-card">
     <p class="tp-eyebrow">Equity Officer</p>
     <h3>Mohamed Lateef</h3>
     <p><a href="mailto:mohlat8176@gmail.com">mohlat8176@gmail.com</a></p>
-    <p>Discord: mohlat223</p>
+    <div class="tp-discord">
+      <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
+      <span class="tp-discord-label">Discord</span>
+      <span class="tp-discord-handle">mohlat223</span>
+    </div>
   </div>
   <div class="tp-card">
     <p class="tp-eyebrow">Equity Officer</p>
@@ -385,7 +440,7 @@ By attending this event, you consent to being photographed or recorded for promo
   </div>
 </div>
 
-## Social
+## Socials
 
 <div class="tp-grid tp-grid-3">
   <div class="tp-card">
