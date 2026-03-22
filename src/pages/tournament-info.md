@@ -89,7 +89,8 @@ If your club requires accommodations with regard to payment deadlines, please co
 <div class="tp-grid tp-grid-2">
   <div class="tp-card">
     <h3>Format</h3>
-    <p>Debates will be in British Parliamentary format, with speeches seven minutes in length. There will be five preliminary rounds. Rounds 1, 2, 3, and 5 are open adjudication. All motions are impromptu with fifteen minutes of preparation.</p>
+    <p>Debates will be in British Parliamentary format, with speeches seven minutes in length. There will be five preliminary rounds. Rounds 1, 2, 3, and 5 are open adjudication. All motions are impromptu with fifteen minutes of preparation. The WUDC 2026 manual will be used.</p>
+    <a href="https://www.worlddebating.org/wudc-manual">Open WUDC manual</a>
   </div>
   <div class="tp-card">
     <h3>Eligibility</h3>
@@ -114,15 +115,6 @@ Should you be found to be in violation of this policy, members of the Equity Tea
 
 By attending this event, you consent to being photographed or recorded for promotional purposes/educational purposes and/or personal use of attendees. If you have concerns regarding being recorded/photographed, please contact the TD team (we'd love to have nice photos of you though).
 
-## Chief Adjudicators
-
-<div class="grid grid-cols-4 gap-2 mt-4">
-  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
-  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
-  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
-  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
-</div>
-
 ## Logistics in Waterloo
 
 <div class="mt-4"></div>
@@ -131,9 +123,16 @@ By attending this event, you consent to being photographed or recorded for promo
 
 The University of Waterloo is accessible by GO Transit. GO Bus routes that go directly to the university include Route 25 from Square One, Route 30 from Bramalea, and Route 17 from Hamilton through Guelph.
 
-- The GO Bus stop is on campus and roughly a 10 minute walk from the GA in EV3.
+<!--- The GO Bus stop is on campus and roughly a 10 minute walk from the GA in EV3. -->
 
 The Kitchener Line does not always run all the way to Kitchener GO. If necessary, take the train to or from Bramalea and then use Route 30 to or from the University of Waterloo station.
+
+<a href="https://uwaterloo.ca/map//" target="_blank" rel="noopener noreferrer">UW Campus Map</a>
+
+<p>You can register your car for overnight parking, either in a parking lot or street parking, here:</p>
+<p><a href="https://www.waterloo.ca/parking/" target="_blank" rel="noopener noreferrer">City of Waterloo parking registration details</a></p> 
+<p><a href="https://uwaterloo.ca/sustainable-transportation/lots-and-rates#:~:text=Lot%20E%20-%20free%20parking,the%20public%20all%20other%20times" target="_blank" rel="noopener noreferrer">UW campus parking details</a></p>
+
 
 ### Food
 
@@ -147,54 +146,16 @@ A form for billeting will be sent out at a later date.
 
 We will be hosting a social on Saturday evening at Columbia Lake Firepit 1. The social is OUTDOORS so please plan accordingly. More social information will be released on Saturday.
 
-## Useful Links
+## Chief Adjudicators
 
-<div class="tp-grid tp-grid-2">
-  <div class="tp-card">
-    <p class="tp-eyebrow">Campus</p>
-    <h3>Campus Map</h3>
-    <p>This is how you make sure you know where to go.</p>
-    <p><a href="https://uwaterloo.ca/map//">Open campus map</a></p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Tools</p>
-    <h3>Discord Server</h3>
-    <p>All announcements, draws, motions, and day-of questions will happen here.</p>
-    <p><em>Unreleased</em></p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Tools</p>
-    <h3>Tournament Tab</h3>
-    <p>Tabbycat for the full tournament tab.</p>
-    <p><em>Unreleased</em></p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Parking</p>
-    <h3>University Parking</h3>
-    <p>Resource from the University of Waterloo.</p>
-    <p><a href="https://uwaterloo.ca/sustainable-transportation/lots-and-rates#:~:text=Lot%20E%20-%20free%20parking,the%20public%20all%20other%20times">Open university parking details</a></p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Parking</p>
-    <h3>Parking Registration</h3>
-    <p>You can register your car for free overnight parking, either in a parking lot or street parking, here.</p>
-    <p><a href="https://www.waterloo.ca/parking/">Open parking registration</a></p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Reference</p>
-    <h3>Map and Room Guide</h3>
-    <p>Building map and room labeling.</p>
-    <p><em>Unreleased</em></p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Reference</p>
-    <h3>WUDC Manual</h3>
-    <p>Surely you've all read this.</p>
-    <p><a href="https://www.worlddebating.org/wudc-manual">Open WUDC manual</a></p>
-  </div>
+<div class="grid grid-cols-4 gap-2 mt-4">
+  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
 </div>
 
-## Organizers and Contacts
+## Organizers
 
 <div class="tp-grid tp-grid-3">
   <div class="tp-card">
