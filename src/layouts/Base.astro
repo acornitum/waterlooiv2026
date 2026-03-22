@@ -82,22 +82,7 @@ const { frontmatter } = Astro.props;
             const expanded = button.getAttribute('aria-expanded') === 'true';
             button.setAttribute('aria-expanded', expanded ? 'false' : 'true');
             arrow.classList.toggle('rotate-90', !expanded);
-            
-            if (expanded) {
-              content.style.maxHeight = content.scrollHeight + 'px';
-              requestAnimationFrame(() => {
-                content.style.maxHeight = '0';
-              });
-            } else {
-              content.classList.remove('hidden');
-              content.style.maxHeight = content.scrollHeight + 'px';
-            }
-          });
-
-          content.addEventListener('transitionend', () => {
-            if (content.style.maxHeight === '0px') {
-              content.classList.add('hidden');
-            }
+            content.classList.toggle('hidden', expanded);
           });
         });
       });
