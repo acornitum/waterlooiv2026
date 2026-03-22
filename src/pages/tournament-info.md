@@ -8,7 +8,7 @@ A centralized tournament package for debaters, judges, and guests. This page is 
 
 <div class="tp-callout">
   <p><strong>Date:</strong> May 23rd and 24th, 2026</p>
-  <p><strong>Venue:</strong> University of Waterloo, 200 University Ave W, Waterloo</p>
+  <p><strong>Venue:</strong> <a href="https://www.google.com/maps/place/University+of+Waterloo/@43.4723005,-80.5551573,3252m/data=!3m2!1e3!4b1!4m6!3m5!1s0x882bf6ad02edccff:0xdd9df23996268e17!8m2!3d43.4722854!4d-80.5448576!16zL20vMGpwa3c?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D">University of Waterloo, 200 University Ave W, Waterloo</a></p>
   <p><strong>Format:</strong> British Parliamentary, 5 preliminary rounds, break to open semifinals and novice finals</p>
   <p><strong>Status:</strong> Registration open, billeting available, dinos welcome</p>
 </div>
@@ -62,14 +62,13 @@ This is a `tentative schedule`, but things are unlikely to change.
 
 
 
-## Important Dates
+## Important Links
 
 <div class="tp-grid tp-grid-2">
   <div class="tp-card">
     <p class="tp-eyebrow">Deadline: May 11th</p>
     <h3>Institutional Registration</h3>
     <p>Submit team and judge numbers.</p>
-    <p><strong>Due:</strong> May 11th</p>
     <p><a href="https://forms.gle/Si899bp2A7XmkSDm7">Open institutional registration form</a></p>
   </div>
   <div class="tp-card">
@@ -93,44 +92,33 @@ This is a `tentative schedule`, but things are unlikely to change.
   </div>
 </div>
 
-## Tournament Details
+## Tournament Info
 
 `Tech, Equity, and Opt-Out policies will be released once confirmed by their organisers`
 
 <div class="tp-grid tp-grid-2">
   <div class="tp-card">
-    <p class="tp-eyebrow">Rulebook</p>
     <h3>Format</h3>
-    <p>Debates will be in British Parliamentary format, with speeches seven minutes in length.</p>
-    <p>There will be five preliminary rounds. Rounds 1, 2, 3, and 5 are open adjudication.</p>
+    <p>Debates will be in British Parliamentary format, with speeches seven minutes in length. There will be five preliminary rounds. Rounds 1, 2, 3, and 5 are open adjudication. All motions are impromptu with fifteen minutes of preparation.</p>
   </div>
   <div class="tp-card">
-    <p class="tp-eyebrow">Break</p>
-    <h3>Eligibility and Categories</h3>
-    <p>The tournament breaks to open semifinals and novice finals.</p>
-    <p>For novice break eligibility, both debaters on a team must be novice.</p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Prep</p>
-    <h3>Motions and Preparation</h3>
-    <p>All motions are impromptu with fifteen minutes of preparation.</p>
-    <p>Motions will be released on Discord and in the GA with no additional walking time between draw and motion drop.</p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Feedback</p>
-    <h3>Judge Feedback</h3>
-    <p>To remain break eligible, teams must submit judge feedback on Tabbycat for all open adjudications they receive.</p>
+    <h3>Eligibility</h3>
+    <p>Hybrid teams are allowed to attend! This tournament is not a strict IV, dinos are welcome!</p>
+    <p>Novice Eligibility: Speakers in their first year of competitive university debate, or who have attended less than three tournaments prior to this one will be eligible for novice status. For novice break eligibility, both debaters on a team must be novice.</p>
   </div>
 </div>
 
-### Eligibility
+### Tech Policy
 
-Hybrid teams are allowed to attend! This tournament is not a strict IV, dinos are welcome!
+Participants may use digital notes if they wish (laptops, tablets etc).
 
-### Novice Eligibility
+- Debaters’ electronic devices (laptops and tablets) MUST be kept on Airplane Mode from motion drop to the end of Opp Whip speech → **NO EXCEPTIONS**
+- Use of outside help, the internet, generative AI, and collaborative notetaking software (e.g. shared Google Docs) are not allowed
+- Use of smartphones to time speeches is allowed
 
-Speakers in their first year of competitive university debate, or who have attended fewer than three tournaments prior to this one, are eligible for novice status.
+Should you be found to be in violation of this policy, members of the Equity Team maintain the right to petition your break eligibility. Please remember to be respectful of your fellow debaters and judges!
 
+**If you suspect a violation of the acceptable use policy, please notify a member of the CA team immediately.**
 
 ### Notice of Recording & Photography
 
@@ -190,30 +178,23 @@ This is our `star studded collection.` Read through each CA's Pokemon card to fi
 
 ## Logistics in Waterloo
 
-<div class="tp-grid tp-grid-2">
-  <div class="tp-card">
-    <p class="tp-eyebrow">Address</p>
-    <h3>University of Waterloo</h3>
-    <p>200 University Ave W, Waterloo</p>
-    <p><a href="https://www.google.com/maps/place/University+of+Waterloo/@43.4723005,-80.5551573,3252m/data=!3m2!1e3!4b1!4m6!3m5!1s0x882bf6ad02edccff:0xdd9df23996268e17!8m2!3d43.4722854!4d-80.5448576!16zL20vMGpwa3c?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D">Open map</a></p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Parking and Housing</p>
-    <h3>On Campus and Billeting</h3>
-    <p>Parking on campus will be available near the building. Please use university facilities respectfully and follow all visitor parking procedures.</p>
-    <p>If you are billeting, check the billeting allocation email for overnight parking details or contact your host directly.</p>
-  </div>
-</div>
+<div class="mt-4"></div>
 
 ### Travel Notes
 
-- The University of Waterloo is accessible by GO Transit.
-- GO Bus routes that go directly to the university include Route 25 from Square One, Route 30 from Bramalea, and Route 17 from Hamilton through Guelph.
+The University of Waterloo is accessible by GO Transit. GO Bus routes that go directly to the university include Route 25 from Square One, Route 30 from Bramalea, and Route 17 from Hamilton through Guelph.
+
 - The GO Bus stop is on campus and roughly a 10 minute walk from the GA in EV3.
-- If you are coming from Toronto Union Station, take the Kitchener Line to Kitchener GO when available.
-- Walk to the Central ION stop from Kitchener GO and take the ION North to the University of Waterloo station.
-- The Kitchener Line does not always run all the way to Kitchener GO and does not run on weekends.
-- If necessary, take the train to or from Bramalea and then use Route 30 to or from the University of Waterloo station.
+
+The Kitchener Line does not always run all the way to Kitchener GO. If necessary, take the train to or from Bramalea and then use Route 30 to or from the University of Waterloo station.
+
+### Billeting
+
+A form for billeting will be sent out at a later date. 
+
+### Social
+
+We will be hosting a social on Saturday evening at Columbia Lake Firepit 2. The social is OUTDOORS so please plan accordingly. More social information will be released on Saturday.
 
 ## Forms
 
