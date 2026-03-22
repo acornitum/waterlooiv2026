@@ -8,7 +8,7 @@ We’re excited to welcome you to Waterloo IV! This site is the invite and tourn
 
 <div class="tp-callout">
   <p><strong>Date:</strong> May 23rd and 24th, 2026</p>
-  <p><strong>Venue:</strong> <a href="https://www.google.com/maps/place/University+of+Waterloo/@43.4723005,-80.5551573,3252m/data=!3m2!1e3!4b1!4m6!3m5!1s0x882bf6ad02edccff:0xdd9df23996268e17!8m2!3d43.4722854!4d-80.5448576!16zL20vMGpwa3c?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D">University of Waterloo, 200 University Ave W, Waterloo</a></p>
+  <p><strong>Venue:</strong> <a href="https://www.google.com/maps/place/University+of+Waterloo/@43.4723005,-80.5551573,3252m/data=!3m2!1e3!4b1!4m6!3m5!1s0x882bf6ad02edccff:0xdd9df23996268e17!8m2!3d43.4722854!4d-80.5448576!16zL20vMGpwa3c?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D">University of Waterloo</a></p>
   <p><strong>Format:</strong> British Parliamentary, 5 preliminary rounds, break to open semifinals and novice finals</p>
   <p><strong>Status:</strong> Registration open, billeting available, dinos welcome</p>
 </div>
