@@ -4,7 +4,7 @@ layout: "../layouts/Base.astro"
 
 ## Waterloo IV 2026 Tournament Package
 
-We’re excited to welcome you to Waterloo IV! This site is the invite and tournament package; this site currently includes registration and tournament details, but will be updated with further logistics as we approch the tournament.
+We’re excited to welcome you to Waterloo IV! This site is the invite and tournament package; it currently includes registration and tournament details, but will be updated with further logistics as we approch the tournament.
 
 <div class="tp-callout">
   <p><strong>Date:</strong> May 23rd and 24th, 2026</p>
