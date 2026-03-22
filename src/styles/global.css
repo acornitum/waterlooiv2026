@@ -10,7 +10,7 @@ body {
     background-image:
         linear-gradient(#f1edd7 1px, transparent 1px),
         linear-gradient(90deg, #f1edd7 1px, transparent 1px);
-    background-size: 24px 24px;
+    background-size: 36px 36px;
     background-position: 0 0;
     background-attachment: scroll;
 }

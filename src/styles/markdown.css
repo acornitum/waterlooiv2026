@@ -70,26 +70,17 @@ article h4, article h5, article h6,
 }
 .markdown a::after, article a::after, .content a::after {
   content: "";
-  width: 1.15rem;
-  height: 1.15rem;
+  width: 4rem;
+  height: 4rem;
   flex: 0 0 1.15rem;
-  border: 2px solid #f0df9d;
-  border-radius: 999px;
-  background: #fff8dc;
-  background-image: url("/arrow.svg");
+  background-image: url("/link_arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 0.55rem 0.55rem;
-  transform: rotate(-45deg);
+  background-size: 1.2rem 1.2rem;
   transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
 }
 .markdown a:hover, article a:hover, .content a:hover {
   color: #163da6;
-}
-.markdown a:hover::after, article a:hover::after, .content a:hover::after {
-  transform: rotate(-45deg) translate(1px, -1px);
-  background-color: #fde68a;
-  border-color: #e5c85a;
 }
 
 /* Inline code */

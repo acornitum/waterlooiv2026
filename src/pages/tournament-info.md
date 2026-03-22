@@ -13,7 +13,7 @@ A centralized tournament package for debaters, judges, and guests. This page is 
   <p><strong>Status:</strong> Registration open, billeting available, dinos welcome</p>
 </div>
 
-This is a `tentative schedule`, but things are unlikely to change. Any dietary restrictions should be submitted in the participant information form.
+This is a `tentative schedule`, but things are unlikely to change.
 
 <div class="flex flex-col md:flex-row gap-8">
   <div class="flex-1">
@@ -33,7 +33,7 @@ This is a `tentative schedule`, but things are unlikely to change. Any dietary r
         <tr><td>12:30 – 2:30 PM</td><td>Round 2</td></tr>
         <tr><td>2:30 – 4:30 PM</td><td>Round 3</td></tr>
         <tr><td>4:30 – 6:30 PM</td><td>Round 4 (Closed)</td></tr>
-        <tr><td>8:30 PM</td><td>Social – Firepit @ Columbia Lake</td></tr>
+        <tr><td>8:30 PM</td><td>Social (Columbia Lake Firepit)</td></tr>
       </tbody>
     </table>
   </div>
@@ -66,7 +66,7 @@ This is a `tentative schedule`, but things are unlikely to change. Any dietary r
 
 <div class="tp-grid tp-grid-2">
   <div class="tp-card">
-    <p class="tp-eyebrow">Deadline</p>
+    <p class="tp-eyebrow">Deadline: May 11th</p>
     <h3>Institutional Registration</h3>
     <p>Submit team and judge numbers.</p>
     <p><strong>Due:</strong> May 11th</p>
