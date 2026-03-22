@@ -4,7 +4,7 @@ layout: "../layouts/Base.astro"
 
 ## Waterloo IV 2026 Tournament Package
 
-A centralized tournament package for debaters, judges, and guests. This page is the final package for Waterloo IV 2026 and covers logistics, deadlines, schedule, fees, forms, and contact details.
+We’re excited to welcome you to Waterloo IV! This site is the invite and tournament package; this site currently includes registration and tournament details, but will be updated with further logistics as we approch the tournament.
 
 <div class="tp-callout">
   <p><strong>Date:</strong> May 23rd and 24th, 2026</p>
@@ -13,7 +13,7 @@ A centralized tournament package for debaters, judges, and guests. This page is 
   <p><strong>Status:</strong> Registration open, billeting available, dinos welcome</p>
 </div>
 
-This is a `tentative schedule`, but things are unlikely to change.
+This is a `tentative schedule` and may be subject to change.
 
 <div class="flex flex-col md:flex-row gap-8">
   <div class="flex-1">
@@ -274,25 +274,5 @@ We will be hosting a social on Saturday evening at Columbia Lake Firepit 1. The 
   <div class="tp-card">
     <p class="tp-eyebrow">Equity Officer</p>
     <h3>To be Decided</h3>
-  </div>
-</div>
-
-## Socials
-
-<div class="tp-grid tp-grid-3">
-  <div class="tp-card">
-    <p class="tp-eyebrow">Instagram</p>
-    <h3>uwdebate</h3>
-    <p><a href="https://www.instagram.com/uwdebate">Open Instagram</a></p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Facebook</p>
-    <h3>Waterloo IV 2026</h3>
-    <p><a href="https://www.facebook.com/share/17ahPR8xZb/">Open Facebook page</a></p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">YouTube</p>
-    <h3>uwdebate</h3>
-    <p><a href="https://www.youtube.com/@uwdebate">Open YouTube channel</a></p>
   </div>
 </div>
