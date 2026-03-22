@@ -70,17 +70,17 @@ article h4, article h5, article h6,
 }
 .markdown a::after, article a::after, .content a::after {
   content: "";
-  width: 4rem;
-  height: 4rem;
-  flex: 0 0 1.15rem;
+  width: 1.15rem;
+  height: 1.15rem;
+  flex-shrink: 0;
   background-image: url("/link_arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1.2rem 1.2rem;
-  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+  transition: transform 0.1s ease, background-color 0.1s ease, border-color 0.1s ease;
 }
 .markdown a:hover, article a:hover, .content a:hover {
-  color: #163da6;
+  color: #019199;
 }
 
 /* Inline code */
