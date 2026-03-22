@@ -146,79 +146,50 @@ A form for billeting will be sent out at a later date.
 
 We will be hosting a social on Saturday evening at Columbia Lake Firepit 1. The social is OUTDOORS so please plan accordingly. More social information will be released on Saturday.
 
-## Chief Adjudicators
-
-<div class="grid grid-cols-4 gap-2 mt-4">
-  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
-  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
-  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
-  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
-</div>
-
 ## Organizers
+
+Contact this email to reach the TDs: uwdsintervarsities@gmail.com
 
 <div class="tp-grid tp-grid-3">
   <div class="tp-card">
     <p class="tp-eyebrow">Tournament Director</p>
     <h3>Jonathan Lyashko</h3>
-    <p><a href="mailto:jlyashko@uwaterloo.ca">jlyashko@uwaterloo.ca</a></p>
     <div class="tp-discord">
       <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
-      <span class="tp-discord-label">Discord</span>
       <span class="tp-discord-handle">jonathanlyashko</span>
     </div>
   </div>
   <div class="tp-card">
     <p class="tp-eyebrow">Tournament Director</p>
     <h3>Acon Lin</h3>
-    <p><a href="mailto:uwdsintervarsities@gmail.com">uwdsintervarsities@gmail.com</a></p>
     <div class="tp-discord">
       <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
-      <span class="tp-discord-label">Discord</span>
       <span class="tp-discord-handle">acorni</span>
     </div>
   </div>
   <div class="tp-card">
     <p class="tp-eyebrow">Tournament Director and Tabs</p>
     <h3>Elaine Zhao</h3>
-    <p><a href="mailto:uwdsintervarsities@gmail.com">uwdsintervarsities@gmail.com</a></p>
     <div class="tp-discord">
       <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
-      <span class="tp-discord-label">Discord</span>
       <span class="tp-discord-handle">eelaine</span>
     </div>
   </div>
   <div class="tp-card">
     <p class="tp-eyebrow">Tabs</p>
     <h3>Gin Nguyen</h3>
+    <div class="tp-discord">
+      <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
+      <span class="tp-discord-handle">ginnguyen_</span>
+    </div>
   </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Chief Adjudicator</p>
-    <h3>Secret</h3>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Chief Adjudicator</p>
-    <h3>Unknown</h3>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Chief Adjudicator</p>
-    <h3>Hidden</h3>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Chief Adjudicator</p>
-    <h3>Undiscovered</h3>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Deputy Chief Adjudicator</p>
-    <h3>Applications Open Soon</h3>
-  </div>
+
   <div class="tp-card">
     <p class="tp-eyebrow">Equity Officer</p>
     <h3>Nyx Kucharski</h3>
     <p><a href="mailto:nyxkucharski@gmail.com">nyxkucharski@gmail.com</a></p>
     <div class="tp-discord">
       <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
-      <span class="tp-discord-label">Discord</span>
       <span class="tp-discord-handle">nyxk._.</span>
     </div>
   </div>
@@ -228,12 +199,16 @@ We will be hosting a social on Saturday evening at Columbia Lake Firepit 1. The 
     <p><a href="mailto:mohlat8176@gmail.com">mohlat8176@gmail.com</a></p>
     <div class="tp-discord">
       <img class="tp-discord-icon" src="/discord.svg" alt="" aria-hidden="true" />
-      <span class="tp-discord-label">Discord</span>
       <span class="tp-discord-handle">mohlat223</span>
     </div>
   </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Equity Officer</p>
-    <h3>To be Decided</h3>
-  </div>
+</div>
+
+### Chief Adjudicators
+
+<div class="grid grid-cols-4 gap-2 mt-4">
+  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
 </div>
