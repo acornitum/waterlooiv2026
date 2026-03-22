@@ -33,7 +33,7 @@ This is a `tentative schedule`, but things are unlikely to change.
         <tr><td>12:30 – 2:30 PM</td><td>Round 2</td></tr>
         <tr><td>2:30 – 4:30 PM</td><td>Round 3</td></tr>
         <tr><td>4:30 – 6:30 PM</td><td>Round 4 (Closed)</td></tr>
-        <tr><td>8:30 PM</td><td>Social (Columbia Lake Firepit)</td></tr>
+        <tr><td>8:30 PM</td><td>Social</td></tr>
       </tbody>
     </table>
   </div>
@@ -62,35 +62,25 @@ This is a `tentative schedule`, but things are unlikely to change.
 
 
 
-## Important Links
+## Registration
 
-<div class="tp-grid tp-grid-2">
+The preliminary registration form will be open until `May 11th 2026 at 11:59 PM EST`.
+
+The registration fee is `$160 CAD per team, $50 per judge`. Institutions that do not meet the N-1 judge rule must pay $50 per missing judge.
+
+<div class="grid grid-cols-2 gap-4">
   <div class="tp-card">
-    <p class="tp-eyebrow">Deadline: May 11th</p>
-    <h3>Institutional Registration</h3>
-    <p>Submit team and judge numbers.</p>
     <p><a href="https://forms.gle/Si899bp2A7XmkSDm7">Open institutional registration form</a></p>
   </div>
   <div class="tp-card">
-    <p class="tp-eyebrow">Deadline</p>
-    <h3>Independent Registration</h3>
-    <p>For pairs of debaters not registering under an institution. Hybrid teams are welcome, as are debaters no longer enrolled in a university.</p>
-    <p><strong>Due:</strong> May 11th</p>
     <p><a href="https://forms.gle/PZF1CtbjiixHXJAY8">Open independent registration form</a></p>
   </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Deadline</p>
-    <h3>Participant Information</h3>
-    <p>This includes names, billeting, and related attendee details.</p>
-    <p><strong>Due:</strong> May 17th</p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Deadline</p>
-    <h3>Payment Deadline</h3>
-    <p>Payment instructions will be sent after registration is complete. Reach out to the TD team if you have any concerns.</p>
-    <p><strong>Due:</strong> May 15th</p>
-  </div>
+
 </div>
+
+Unless you have requested a waiver or you were told otherwise by the Tournament Directors, institutions will be required to send a `full payment encompassing all registered teams by the deadline of May 15th at 11:59 PM EST`.
+
+If your club requires accommodations with regard to payment deadlines, please contact us and we will make alternative arrangements. Please note that the cancellation deadline for any team is March 19th at 11:59 PM EST. Refunds will not be given past this date. 
 
 ## Tournament Info
 
@@ -122,58 +112,15 @@ Should you be found to be in violation of this policy, members of the Equity Tea
 
 ### Notice of Recording & Photography
 
-By attending this event, you consent to being photographed or recorded for promotional purposes/educational purposes and/or personal use of attendees. If you have concerns regarding being recorded/photographed, please contact the TD team (we'd love to have nice photos of you though😊).
-
-## Fees and Compensation
-
-<div class="tp-grid tp-grid-3">
-  <div class="tp-card">
-    <p class="tp-eyebrow">Fee</p>
-    <h3>Team Registration</h3>
-    <p><strong>$160</strong> per team.</p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Fee</p>
-    <h3>Judge Registration and Missing Judge Fee</h3>
-    <p>Each judge registration is <strong>$50</strong>. Institutions that do not meet the N-1 judge rule must pay <strong>$50</strong> per missing judge.</p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Compensation</p>
-    <h3>Independent Adjudicators</h3>
-    <p>When filling out the IA application form, specify your total desired compensation.</p>
-  </div>
-</div>
+By attending this event, you consent to being photographed or recorded for promotional purposes/educational purposes and/or personal use of attendees. If you have concerns regarding being recorded/photographed, please contact the TD team (we'd love to have nice photos of you though).
 
 ## Chief Adjudicators
 
-This is our `star studded collection.` Read through each CA's Pokemon card to find out more about them.
-
-<div class="tp-grid tp-grid-ca">
-  <div class="tp-ca-card">
-    <div class="tp-ca-portrait">
-      <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
-    </div>
-  </div>
-  <div class="tp-ca-card">
-    <div class="tp-ca-portrait">
-      <img src="/WIV--unknown.png" alt="Placeholder chief adjudicator card art" />
-    </div>
-  </div>
-  <div class="tp-ca-card">
-    <div class="tp-ca-portrait">
-      <img src="/WIV--hidden.png" alt="Placeholder chief adjudicator card art" />
-    </div>
-  </div>
-  <div class="tp-ca-card">
-    <div class="tp-ca-portrait">
-      <img src="/WIV--undiscovered.png" alt="Placeholder chief adjudicator card art" />
-    </div>
-  </div>
-  <div class="tp-ca-card">
-    <div class="tp-ca-portrait">
-      <img src="/WIV--open-spot.png" alt="Placeholder chief adjudicator card art" />
-    </div>
-  </div>
+<div class="grid grid-cols-4 gap-2 mt-4">
+  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
 </div>
 
 ## Logistics in Waterloo
@@ -188,55 +135,17 @@ The University of Waterloo is accessible by GO Transit. GO Bus routes that go di
 
 The Kitchener Line does not always run all the way to Kitchener GO. If necessary, take the train to or from Bramalea and then use Route 30 to or from the University of Waterloo station.
 
+### Food
+
+Breakfast and lunch will be provided on both Saturday and Sunday. Any dietary concerns (including severe allergies, halal, kosher, vegan, etc.) should be indicated on the registration form so that we can properly accommodate your needs.
+
 ### Billeting
 
 A form for billeting will be sent out at a later date. 
 
 ### Social
 
-We will be hosting a social on Saturday evening at Columbia Lake Firepit 2. The social is OUTDOORS so please plan accordingly. More social information will be released on Saturday.
-
-## Forms
-
-<div class="tp-grid tp-grid-2">
-  <div class="tp-card">
-    <p class="tp-eyebrow">Open</p>
-    <h3>Institutional Registration</h3>
-    <p>For institutions registering their teams.</p>
-    <p><a href="https://forms.gle/Si899bp2A7XmkSDm7">Open form</a></p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Open</p>
-    <h3>Independent Registration</h3>
-    <p>For pairs of debaters not registering under an institution.</p>
-    <p><a href="https://forms.gle/PZF1CtbjiixHXJAY8">Open form</a></p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Unreleased</p>
-    <h3>Tab Correction / Change</h3>
-    <p>For any changes you would like made on the tab.</p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Unreleased</p>
-    <h3>Scratch Form</h3>
-    <p>Scratches must be submitted by Friday, May 22nd, at 7 PM.</p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Unreleased</p>
-    <h3>Equity Form</h3>
-    <p>For all equity-related matters.</p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Unreleased</p>
-    <h3>Independent Adjudicator Application</h3>
-    <p>Please specify your total desired compensation in your application.</p>
-  </div>
-  <div class="tp-card">
-    <p class="tp-eyebrow">Unreleased</p>
-    <h3>Deputy Chief Adjudicator Application</h3>
-    <p>Opening soon!</p>
-  </div>
-</div>
+We will be hosting a social on Saturday evening at Columbia Lake Firepit 1. The social is OUTDOORS so please plan accordingly. More social information will be released on Saturday.
 
 ## Useful Links
 
