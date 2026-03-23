@@ -80,7 +80,7 @@ The registration fee is `$160 CAD per team, $50 per judge`. Institutions that do
 
 Unless you have requested a waiver or you were told otherwise by the Tournament Directors, institutions will be required to send a `full payment encompassing all registered teams by the deadline of May 15th at 11:59 PM EST`.
 
-If your club requires accommodations with regard to payment deadlines, please contact us and we will make alternative arrangements. Please note that the cancellation deadline for any team is March 19th at 11:59 PM EST. Refunds will not be given past this date. 
+If your club requires accommodations with regard to payment deadlines, please contact us and we will make alternative arrangements. Please note that the cancellation deadline for any team is May 19th at 11:59 PM EST. Refunds will not be given past this date. 
 
 ## Tournament Info
 
@@ -207,8 +207,8 @@ Contact this email to reach the TDs: uwdsintervarsities@gmail.com
 ### Chief Adjudicators
 
 <div class="grid grid-cols-4 gap-2 mt-4">
-  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
-  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
-  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
-  <img src="/WIV--secret.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--secret-grey.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--hidden-grey.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--unknown-grey.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--open-grey.png" alt="Placeholder chief adjudicator card art" />
 </div>
