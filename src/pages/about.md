@@ -1,5 +1,7 @@
 ---
 layout: "../layouts/Base.astro"
+metaTitle: "About Waterloo IV 2026"
+description: "Overview of Waterloo IV 2026, including tournament package details and key resources."
 ---
 
 ## We're excited to invite you to Waterloo IV 2026, happening `May 23rd & 24th`!!
