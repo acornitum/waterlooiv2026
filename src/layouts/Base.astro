@@ -2,13 +2,34 @@
 import "../styles/global.css";
 import "../styles/markdown.css"
 const { frontmatter } = Astro.props;
+
+const title = frontmatter.metaTitle ?? frontmatter.title ?? 'Waterloo IV 2026';
+const description =
+  frontmatter.description ??
+  "Waterloo IV 2026 tournament package with registration, logistics, deadlines, and resource links.";
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+const socialImage = new URL('/pics.png', Astro.site);
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{frontmatter.title}</title>
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Waterloo IV 2026" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={socialImage} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
   </head>
   <body>
     <div class="markdown">
@@ -20,7 +41,7 @@ const { frontmatter } = Astro.props;
             onclick="this.querySelector('.arrow').classList.toggle('rotate-90'); this.nextElementSibling.classList.toggle('hidden')"
         >
             <img src="/arrow.svg" class="arrow transition-transform duration-200 w-4 h-4" alt="" />
-            <p class="text-4xl font-bold">{frontmatter.title}</p>
+            <p class="text-4xl font-bold">{title}</p>
         </button>
 
 

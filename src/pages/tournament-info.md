@@ -1,5 +1,7 @@
 ---
 layout: "../layouts/Base.astro"
+metaTitle: "Waterloo IV 2026 Tournament Info"
+description: "Registration, schedule, logistics, policies, and contact information for Waterloo IV 2026."
 ---
 
 ## Waterloo IV 2026 Tournament Package
