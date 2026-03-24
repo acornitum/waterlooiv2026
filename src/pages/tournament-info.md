@@ -84,7 +84,7 @@ If your club requires accommodations with regard to payment deadlines, please co
 
 ## Tournament Info
 
-`Tech, Equity, and Opt-Out policies will be released once confirmed by their organisers`
+`Tech, Equity, and Opt-Out policies will be released once confirmed by Equity and CAP.`
 
 <div class="tp-grid tp-grid-2">
   <div class="tp-card">
@@ -98,18 +98,6 @@ If your club requires accommodations with regard to payment deadlines, please co
     <p>Novice Eligibility: Speakers in their first year of competitive university debate, or who have attended less than three tournaments prior to this one will be eligible for novice status. For novice break eligibility, both debaters on a team must be novice.</p>
   </div>
 </div>
-
-### Tech Policy
-
-Participants may use digital notes if they wish (laptops, tablets etc).
-
-- Debaters’ electronic devices (laptops and tablets) MUST be kept on Airplane Mode from motion drop to the end of Opp Whip speech → **NO EXCEPTIONS**
-- Use of outside help, the internet, generative AI, and collaborative notetaking software (e.g. shared Google Docs) are not allowed
-- Use of smartphones to time speeches is allowed
-
-Should you be found to be in violation of this policy, members of the Equity Team maintain the right to petition your break eligibility. Please remember to be respectful of your fellow debaters and judges!
-
-**If you suspect a violation of the acceptable use policy, please notify a member of the CA team immediately.**
 
 ### Notice of Recording & Photography
 
