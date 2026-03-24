@@ -84,7 +84,7 @@ If your club requires accommodations with regard to payment deadlines, please co
 
 ## Tournament Info
 
-`Tech, Equity, and Opt-Out policies will be released once confirmed by Equity and CAP.`
+`Tech, Equity, and Opt-Out policies will be released once confirmed by CAP and Equity`
 
 <div class="tp-grid tp-grid-2">
   <div class="tp-card">
