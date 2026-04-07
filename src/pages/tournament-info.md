@@ -80,6 +80,9 @@ The registration fee is `$160 CAD per team, $50 per judge`. Institutions that do
   <div class="tp-card">
     <p><a href="https://forms.gle/qfr3rsetx9AXqBQs7">Open waiver request form</a></p>
   </div>
+  <div class="tp-card">
+    <p><a href="https://forms.gle/KUXusjunCn5MvheB8">Open IA application form</a></p>
+  </div>
 
 </div>
 
