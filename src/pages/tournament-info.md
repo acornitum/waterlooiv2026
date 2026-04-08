@@ -205,6 +205,6 @@ Contact this email to reach the TDs: uwdsintervarsities@gmail.com
 <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mt-4">
   <img src="/WIV--caitlin-grey.jpg" alt="Placeholder chief adjudicator card art" />
   <img src="/WIV--guo-grey.png" alt="Placeholder chief adjudicator card art" />
-  <img src="/WIV--unknown-grey.png" alt="Placeholder chief adjudicator card art" />
+  <img src="/WIV--rhys-grey.png" alt="Placeholder chief adjudicator card art" />
   <img src="/WIV--open-grey.png" alt="Placeholder chief adjudicator card art" />
 </div>
