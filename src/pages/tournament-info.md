@@ -10,9 +10,10 @@ We’re excited to welcome you to Waterloo IV! This site is the invite and tourn
 
 <div class="tp-callout">
   <p><strong>Date:</strong> May 23rd and 24th, 2026</p>
-  <p><strong>Venue:</strong> <a href="https://www.google.com/maps/place/University+of+Waterloo/@43.4723005,-80.5551573,3252m/data=!3m2!1e3!4b1!4m6!3m5!1s0x882bf6ad02edccff:0xdd9df23996268e17!8m2!3d43.4722854!4d-80.5448576!16zL20vMGpwa3c?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D">University of Waterloo</a></p>
+  <p><strong>Venue:</strong> <a href="https://www.google.com/maps/place/Mike+%26+Ophelia+Lazaridis+Quantum+Nano+Centre,+Waterloo,+ON+N2L+3G1/@43.4712521,-80.5489868,815m/data=!3m2!1e3!4b1!4m6!3m5!1s0x882bf6aa030140c1:0xbf05ac83dfde0e44!8m2!3d43.4712483!4d-80.5441159!16s%2Fg%2F1hhlhk9q2?entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D">University of Waterloo</a></p>
+  <p><strong>General Assembly:</strong> QNC 2502</p>
   <p><strong>Format:</strong> British Parliamentary, 5 preliminary rounds, break to open semifinals and novice finals</p>
-  <p><strong>Status:</strong> Registration open, billeting available, dinos welcome</p>
+  <p><strong>Status:</strong> Registration closed, see you this weekend!</p>
 </div>
 
 This is a `tentative schedule` and may be subject to change.
@@ -92,8 +93,6 @@ If your club requires accommodations with regard to payment deadlines, please co
 
 ## Tournament Info
 
-`Tech, Equity, and Opt-Out policies will be released once confirmed by CAP and Equity`
-
 <div class="tp-grid tp-grid-2">
   <div class="tp-card">
     <h3>Format</h3>
@@ -107,9 +106,17 @@ If your club requires accommodations with regard to payment deadlines, please co
   </div>
 </div>
 
+### Use of Technology in Note Taking
+
+By default, speakers should only use paper for their notes. For anyone that requires a laptop or any other form of accomodation, please submit the <a href="https://forms.gle/oHGqXoGf1Q5nnPVK8">accomodation form</a>. Any speakers approved for laptop notes will have a laptop emoji added to their name on TabbyCat for ease of tracking. Any illegal internet use will result in disqualification from the tournament. 
+
+### Opt Out Policy 
+
+This tournament will use iron-person based opt outs. Should any speaker be uncomfortable debating a given motion, they may decide to opt out; in which case their partner will deliver both speeches. This decision must be communicated to the Equity Team within five minutes of the motion being released. If neither speaker is able to debate the motion, the team forfeits the round, automatically receivng fourth place. A team may opt out of a maximum of two in-rounds while remaining break eligible. 
+
 ### Notice of Recording & Photography
 
-By attending this event, you consent to being photographed or recorded for promotional purposes/educational purposes and/or personal use of attendees. If you have concerns regarding being recorded/photographed, please contact the TD team (we'd love to have nice photos of you though).
+By attending this event, you consent to being photographed or recorded for promotional purposes/educational purposes and/or personal use of attendees. If you would like to opt out of any media produced at this tournament, please fill out the <a href="https://forms.gle/DagS2MmVc8LghLeQ8">opt out form</a> (we'd love to have nice photos of you though).
 
 ## Logistics in Waterloo
 
